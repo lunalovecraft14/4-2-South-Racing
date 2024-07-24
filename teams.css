@@ -1,0 +1,43 @@
+/*
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 4
+
+   Author: Melissa Coates
+   Date: July 24, 2024
+
+   Filename: teams.css
+
+   This file contains styles used in the teams.xml file.
+*/
+
+team {
+   display: inline-block;
+   padding: 10px;
+   margin: 10px;
+   border: 5px double green;
+   background: lavender;
+   width: 16em;
+   font-weight: bold; /* Make all team-related text bold */
+}
+
+title {
+   display: block;
+   font-size: 16pt; /* Revert to previous font size */
+   font-weight: bold; /* Make title bold */
+}
+
+description {
+   display: inline;
+   color: green;
+   font-size: 14pt;
+   font-weight: bold; /* Make description bold */
+}
+
+series {
+   color: red;
+   display: inline;
+   margin-left: 10px;
+   font-size: 12pt;
+   font-weight: bold; /* Make series bold */
+}
