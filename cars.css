@@ -1,0 +1,42 @@
+/*
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 4
+
+   Author: Melissa Coates
+   Date: July 24, 2024
+
+   Filename: cars.css
+
+   This file contains styles used in the cars.xml file.
+*/
+
+car {
+   display: list-item;
+   margin-left: 30px;
+   font-family: Garamond, "Times New Roman", Times, serif;
+   font-weight: bold; /* Make all car-related text bold */
+}
+
+title {
+   list-style-type: disc;
+   display: block;
+   font-weight: bold; /* Make title bold */
+}
+
+model {
+   display: block;
+   color: green;
+   font-weight: bold; /* Make model bold */
+}
+
+driver {
+   color: green;
+   font-weight: bold; /* Make driver bold */
+}
+
+/* New style for car titles */
+.car-title {
+   font-size: 12pt; /* One font size smaller than before */
+   font-weight: bold; /* Make car titles bold */
+}
