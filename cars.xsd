@@ -1,0 +1,30 @@
+<!--
+New Perspectives on XML
+Tutorial 4
+Case Problem 4
+Cars schema
+Author: Melissa Coates
+Date: July 28, 2024
+Filename: cars.xsd
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="http://www.example.com/cars"
+           targetNamespace="http://www.example.com/cars"
+           elementFormDefault="qualified">
+    <xs:element name="cars">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="car" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" type="xs:string"/>
+                            <xs:element name="model" type="xs:string"/>
+                            <xs:element name="driver" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="cid" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
